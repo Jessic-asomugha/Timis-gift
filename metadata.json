@@ -1,0 +1,6 @@
+{
+  "name": "Surprise Gift Tracker",
+  "description": "A playful, custom package tracker designed as a surprise experience for a gift receiver. Updates are managed manually by the sender.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
