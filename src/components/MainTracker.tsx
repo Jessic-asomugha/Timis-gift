@@ -502,7 +502,7 @@ export default function MainTracker({ state, onBack, onRefresh, onOpenGift }: Ma
                 className="space-y-8"
               >
                 {/* Dog Mascot Stage Display Header with background block */}
-                <div className="relative rounded-2xl bg-amber-50/30 border border-amber-900/5 p-6 flex flex-col items-center justify-center overflow-hidden">
+                <div className="relative rounded-2xl bg-amber-50/30 border border-amber-900/5 p-6 flex flex-col items-center justify-center">
                   <div className="absolute top-3 left-4 flex items-center gap-1.5">
                     <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
                     <span className="text-[10px] font-mono text-stone-500 select-none uppercase tracking-wider">

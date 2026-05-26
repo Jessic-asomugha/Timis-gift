@@ -23,7 +23,7 @@ let state: TrackerState = {
 
 async function startServer() {
   const app = express();
-  const PORT = process.env.PORT || 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // JSON request body parser
   app.use(express.json());
